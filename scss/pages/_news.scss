@@ -1,0 +1,1297 @@
+.bota_news_main {
+  position: relative;
+  margin-top: 34px;
+
+  .bota_news_body {
+    position: relative;
+
+    .bota_news_it {
+      position: relative;
+
+      .bota_news_it_img {
+        height: 442px;
+        position: relative;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .bota_news_it_cont {
+        background: rgba(255, 255, 255, 0.9);
+        position: absolute;
+        bottom: 0;
+        padding: 20px;
+        width: 100%;
+
+
+        .bota_news_it_category {
+          background: #FFFFFF;
+          border: 1px solid #A30000;
+          box-sizing: border-box;
+          border-radius: 5px;
+          display: inline-block;
+          margin-bottom: 10px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+
+          a {
+            color: #A30000;
+            padding: 4px 16px;
+            line-height: 20px;
+            display: block;
+          }
+        }
+
+        h3 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 27px;
+          text-transform: capitalize;
+          color: #000000;
+          margin-bottom: 5px;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          height: 54px;
+
+          a {
+            color: #000;
+          }
+        }
+
+        .bota_news_it_toolbar {
+          position: relative;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          color: #888;
+          display: flex;
+          flex-wrap: wrap;
+
+          .bota_news_it_copyright {}
+
+          .bota_news_it_times {
+            margin-left: 64px;
+          }
+        }
+
+        h3:hover a {
+          color: #A30000;
+        }
+      }
+    }
+    .slick-arrow {
+      position: absolute;
+      bottom: 120px;
+      right: 20px;
+      border: none !important;
+      font-size: 0;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100%;
+      outline: none;
+      height: 15px;
+      background: unset;
+      z-index: 9;
+      
+
+      &.slick-next {
+        background-image: url("../imgs/arrow-next.svg");
+        &:hover{
+          background-image: url("../imgs/arrow-next-hover.svg");
+        }
+      }
+      &.slick-prev {
+        right: 35px;
+        background-image: url("../imgs/arrow-right.svg");
+        &:hover{
+          background-image: url("../imgs/arrow-right-hover.svg");
+        }
+      }
+    }
+  }
+  .bota_news_small {
+    position: relative;
+
+    .bota_news_it {
+      position: relative;
+      + .bota_news_it {
+        margin-top: 20px;
+      }
+
+      .bota_news_it_img {
+        height: 211px;
+        position: relative;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+        &:before{
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, #A30000 74.79%, #A30000 100%);
+          mix-blend-mode: multiply;
+          width: 100%;
+          height: 133px;
+        }
+      }
+
+      .bota_news_it_cont {
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+
+        .bota_news_it_category {
+          background: #FFFFFF;
+          border: none;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          border-radius: 5px;
+          display: inline-block;
+          margin-bottom: 10px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+
+          a {
+            color: #A30000;
+            padding: 4px 16px;
+            line-height: 20px;
+            display: block;
+          }
+        }
+
+        h3 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 24px;
+          color: #FFFFFF;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          height: 54px;
+
+          a {
+            color: #fff;
+          }
+        }
+
+        .bota_news_it_toolbar {
+          position: relative;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          color: #fff;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+
+          .bota_news_it_times {
+            margin-left: 64px;
+          }
+        }
+      }
+    }
+  }
+}
+.bota_news_category_home {
+  position: relative;
+  margin-top: 60px;
+
+  .bota_news_category_title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+
+    h2 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 23px;
+      line-height: 26px;
+      color: #000;
+      margin: 0;
+    }
+
+    .bota_news_category_link {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 28px;
+      display: inline-block;
+      text-transform: capitalize;
+
+      a {
+        color: #D40000;
+      }
+    }
+  }
+  .bota_news_category_it {
+    position: relative;
+    overflow: hidden;
+    + .bota_news_category_it {
+      margin-top: 20px;
+    }
+    .bota_news_category_img {
+      position: relative;
+      float: left;
+      width: 164px;
+      height: 119px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .bota_news_category_cont {
+      position: relative;
+      margin-left: 15px;
+      float: left;
+      width: calc(100% - 179px);
+
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        margin-bottom: 5px;
+
+        a {
+          color: #000;
+        }
+
+        &:hover a {
+          color: #D40000;
+        }
+      }
+
+      .bota_news_category_toolbar {
+        position: relative;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #888;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .bota_news_category_times {}
+      }
+    }
+  }
+  .bota_news_category_small_it {
+    position: relative;
+
+    .bota_news_category_small_img {
+      position: relative;
+      height: 380px;
+      overflow: hidden;
+      margin-bottom: 15px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .bota_news_category_small_cont {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+
+      .bota_news_category_small_col {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+
+        &:last-child {
+          margin-left: 26px;
+          -ms-flex: 0 0 46%;
+          flex: 0 0 46%;
+          max-width: 46%;
+        }
+
+        h3 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          margin-bottom: 5px;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+
+          a {
+            color: #000;
+          }
+
+          &:hover a {
+            color: #D40000;
+          }
+        }
+
+        .bota_news_category_small_toolbar {
+          position: relative;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          color: #888;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+        }
+
+        .bota_news_category_small_des {
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 24px;
+          color: #333;
+        }
+      }
+    }
+  }
+  .bota_news_category_full_it{
+    + .bota_news_category_full_it{
+      margin-top: 25px;
+    }
+    .bota_news_category_full_img {
+      position: relative;
+      height: 159px;
+      overflow: hidden;
+      margin-bottom: 10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .bota_news_category_full_cont {
+      position: relative;
+
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        margin-bottom: 5px;
+
+        a {
+          color: #000;
+        }
+
+        &:hover a {
+          color: #D40000;
+        }
+      }
+
+      .bota_news_category_toolbar {
+        position: relative;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #888;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+.bota_news_hot_main {
+  background: #F6F6F6;
+  margin-top: 60px;
+  padding: 39px 0;
+
+  .bota_news_hot_title {
+    position: relative;
+    margin-bottom: 30px;
+
+    h2 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 23px;
+      line-height: 26px;
+      color: #000;
+      margin: 0;
+    }
+  }
+  .bota_news_hot_it {
+    position: relative;
+
+    .bota_news_hot_img {
+      position: relative;
+      height: 147px;
+      overflow: hidden;
+      margin-bottom: 10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .bota_news_hot_cont {
+      position: relative;
+
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+
+        a {
+          color: #000;
+        }
+
+        &:hover a {
+          color: #D40000;
+        }
+      }
+
+      .bota_news_hot_toolbar {
+        position: relative;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #888;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      }
+    }
+  }
+  .bota_news_hot_body {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .slick-slider {
+    padding-bottom: 50px;
+  }
+  .slick-arrow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: none !important;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    background: unset;
+    z-index: 9;
+    &.slick-next {
+      background-image: url(../imgs/icon-next.svg);
+      &:hover{
+        background-image: url(../imgs/icon-next-hover.svg);
+      }
+    }
+    &.slick-prev {
+      background-image: url(../imgs/icon-prev.svg);
+      right: 35px;
+      &:hover{
+        background-image: url(../imgs/icon-prev-hover.svg);
+      }
+    }
+  }
+}
+.bota_news_page {
+  margin-top: 30px;
+  .bota_news_page_cate {
+    margin-top: 36px;
+
+    .nav-tabs {
+      border-top: 1px solid #E9E9E9;
+      border-bottom: 1px solid #E9E9E9;
+      padding: 15px 0;
+
+      li {
+        a {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 20px;
+          color: #333;
+          padding: 9px 19px;
+          border: unset !important;
+          box-shadow: unset !important;
+
+          &.active {
+            background: #D40000;
+            border-radius: 5px;
+            color: #fff;
+          }
+        }
+
+        margin: 0;
+      }
+    }
+  }
+  .bota_news_blog_grid {
+    position: relative;
+    margin-top: 30px;
+
+    .bota_news_blog_it {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+
+      .bota_news_blog_img {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+        height: 355px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .bota_news_blog_cont {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+        padding: 27px 28px 15px;
+        background: #f6f6f6;
+      }
+
+      .bota_news_blog_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .bota_news_blog_cont {
+        h3 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 27px;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+        }
+
+        .bota_news_blog_des {
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 7;
+          -webkit-box-orient: vertical;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          color: #777;
+          margin-bottom: 46px;
+          min-height: 150px;
+        }
+
+        .bota_news_blog_toolbar {
+          position: relative;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 26px;
+          color: #888;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+        }
+
+        h3 {
+          a {
+            color: #000;
+          }
+
+          &:hover a {
+            color: #d30300;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bota_news_page_list {
+  position: relative;
+  margin-right: -10px;
+  margin-left: -10px;
+  .slick-arrow {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    z-index: 9;
+    border: none !important;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    background: unset;
+  }
+
+  .slick-prev {
+    left: 25px;
+    background-image: url(../imgs/icon-prev.svg);
+    &:hover{
+     background-image: url(../imgs/icon-prev-hover.svg);
+   }
+ }
+
+ .slick-next {
+  right: 25px;
+  background-image: url(../imgs/icon-next.svg);
+  &:hover{
+    background-image: url(../imgs/icon-next-hover.svg);
+  }
+}
+
+.bota_news_business_it {
+  position: relative;
+}
+}
+
+.bota_news_business_it {
+  .bota_news_business_img {
+    height: 412px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .bota_news_business_cont {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 20px;
+
+    .bota_news_business_bg {
+      background: #fff;
+      padding: 20px;
+
+      .bota_news_business_category {
+        background: #FFFFFF;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 5px;
+        display: inline-block;
+        margin-bottom: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        border: 1px solid #A30000;
+
+        a {
+          color: #A30000;
+          padding: 4px 16px;
+          line-height: 20px;
+          display: block;
+        }
+      }
+
+      h3 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 24px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+
+        a {
+          color: #000;
+        }
+
+        &:hover a {
+          color: #d30300;
+        }
+      }
+      .bota_news_business_toolbar {
+        position: relative;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #888;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+.bota_news_blog_small {
+  position: relative;
+  margin-bottom: 35px;
+
+  .bota_news_blog_small_it {
+    position: relative;
+
+    .bota_news_blog_small_img {
+      position: relative;
+      height: 147px;
+      overflow: hidden;
+      margin-bottom: 10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .bota_news_blog_small_cont {
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+
+        a {
+          color: #000;
+        }
+
+        &:hover a {
+          color: #d30300;
+        }
+      }
+
+      .bota_news_blog_small_toolbar {
+        position: relative;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        color: #888;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+.bota_news_blog_list_it {
+  position: relative;
+  overflow: hidden;
+
+  .bota_news_blog_list_img {
+    width: 266px;
+    height: 161px;
+    float: left;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .bota_news_blog_list_cont {
+    float: left;
+    width: calc(100% - 284px);
+    margin-left: 18px;
+
+    h3 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      margin: 0;
+      margin-bottom: 5px;
+
+      a {
+        color: #333;
+      }
+
+      &:hover a {
+        color: #d30300;
+      }
+    }
+    .bota_news_blog_list_des {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 28px;
+      color: #777;
+      margin-bottom: 11px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .bota_news_blog_list_toolbar {
+      position: relative;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 26px;
+      color: #888;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+      .bota_news_blog_list_times {
+        margin-left: 30px;
+      }
+    }
+  }
+
+  + .bota_news_blog_list_it {
+    margin-top: 25px;
+  }
+}
+.bota_block_news {
+  position: relative;
+  margin-bottom: 30px;
+
+  .bota_block_news_title {
+    position: relative;
+    border-bottom: 1px solid #E9E9E9;
+    margin-bottom: 15px;
+
+    h2 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      color: #333;
+      padding-bottom: 9px;
+      margin: 0;
+    }
+  }
+
+  .bota_block_news_big {
+    position: relative;
+
+    .bota_block_news_img {
+      height: 147px;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 8px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    h3 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+
+      a {
+        color: #000;
+      }
+
+      &:hover a {
+        color: #d30300;
+      }
+    }
+  }
+}
+
+.bota_block_news_small {
+  position: relative;
+  border-top: 1px solid #E9E9E9;
+  padding-top: 15px;
+  margin-top: 15px;
+
+  ul li {
+    + li {
+      border-top: 1px solid #E9E9E9;
+      padding-top: 15px;
+      margin-top: 15px;
+    }
+
+    a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 24px;
+      color: #000;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    &:hover a {
+      color: #d30300;
+    }
+  }
+}
+.bota_news_details_page {
+  margin-top: 15px;
+  .bota_news_details_title {
+    position: relative;
+
+    h1 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 35px;
+      margin-bottom: 15px;
+    }
+  }
+  .bota_news_details_box {
+    max-width: 871px;
+    margin: auto;
+  }
+
+  .bota_news_details_toolbar {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+
+    .bota_news_details_time {
+      margin-left: 17px;
+    }
+  }
+
+  .bota_news_details_des {
+    max-width: 703px;
+    margin: auto;
+  }
+  .bota_news_details_des {
+    h3, h2, h4, h5, h6 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #333;
+      margin: 0;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      color: #333;
+      margin-bottom: 25px;
+    }
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+
+    img {
+      margin: auto;
+      display: block;
+    }
+
+    div p {
+      background: #F6F6F6;
+      text-align: center;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 24px;
+      padding: 8px 0;
+    }
+
+    ul {
+      background: #EDF6FE;
+      border-left: 3px solid #333333;
+      padding: 20px 24px;
+      margin-bottom: 25px;
+      overflow: hidden;
+
+      li {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        padding-left: 20px;
+        position: relative;
+
+        &:before {
+          width: 8px;
+          height: 8px;
+          content: "";
+          background: #333;
+          position: absolute;
+          left: 0;
+          border-radius: 100%;
+          top: 10px;
+        }
+
+        + li {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}
+.bota_news_details_img {
+  position: relative;
+  margin: 30px auto 39px;
+
+  img {
+    margin: auto;
+    display: block;
+  }
+}
+#fb-root {
+  display: none;
+}
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
+.bota_share {
+  border-top: 1px solid #E9E9E9;
+  border-bottom: 1px solid #E9E9E9;
+  padding: 20px 0;
+  .bota_share_box{
+   max-width: 703px;
+   margin: auto;
+ }
+}
+.bota_keyboard {
+  padding: 20px 0;
+  position: relative;
+  overflow: hidden;
+
+  a {
+    &:before {
+      right: 100%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-right-color: #D9D9D9;
+      border-width: 12px;
+    }
+
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    display: inline-block;
+    background: #D9D9D9;
+    padding: 0 15px;
+    transition: unset;
+  }
+
+  label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+    color: #000;
+    margin-right: 40px;
+  }
+
+  a {
+    + a {
+      margin-left: 20px;
+    }
+
+    &:hover {
+      background: #d30300;
+
+      &:before {
+        border-right-color: #d30300;
+      }
+    }
+  }
+}
+.bota_news_relate {
+  margin-top: 30px;
+}
+
+.bota_news_relate_title {
+  position: relative;
+
+  h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 26px;
+    color: #000;
+    margin-bottom: 25px;
+  }
+}
+
+.bota_news_relate_it {
+  position: relative;
+
+  .bota_news_relate_img {
+    position: relative;
+    height: 147px;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .bota_news_relate_contx {
+    position: relative;
+
+    h3 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 5px;
+
+      a {
+        color: #000;
+      }
+
+      &:hover a {
+        color: #d30300;
+      }
+    }
+
+    .bota_news_relate_toolbar {
+      position: relative;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 26px;
+      color: #888;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+  }
+}

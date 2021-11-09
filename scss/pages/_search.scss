@@ -1,0 +1,68 @@
+.bota_search_page {
+  margin-top: 30px;
+  .bota_search_title_all {
+    position: relative;
+    margin-bottom: 18px;
+
+    h1 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 28px;
+      color: #333;
+      margin: 0;
+    }
+  }
+
+  .bota_search_toolbar {
+    position: relative;
+
+    label {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 21px;
+      display: block;
+      color: #777;
+      margin-bottom: 6px;
+    }
+
+    select {
+      background: #FFFFFF;
+      border: 1px solid #d9d9d9;
+      box-sizing: border-box;
+      width: 100%;
+      height: 30px;
+      padding: 0 12px;
+      font-size: 14px;
+      color: #999;
+      font-weight: normal;
+      outline: none;
+      background-image: url(../imgs/select.svg);
+      -webkit-appearance: none;
+      appearance: none;
+      background-repeat: no-repeat;
+      background-size: 10px;
+      background-position: 95%!important;
+
+      &:focus {
+        border-color: #d30300;
+      }
+    }
+  }
+  .bota_search_page_cont {
+    border-top: 1px solid #E9E9E9;
+    padding: 25px 0;
+    margin-top: 21px;
+  }
+  .block_ads_right_it {
+    + .block_ads_right_it {
+      margin-top: 40px;
+    }
+    img{
+      margin: auto;
+      display: block;
+    }
+  }
+}
+

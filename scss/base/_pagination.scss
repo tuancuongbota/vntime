@@ -1,0 +1,38 @@
+.bota_pagination {
+  margin-top: 30px;
+
+  ul {
+    li {
+      a {
+        border: none !important;
+        padding: 0;
+        line-height: 30px;
+        margin: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        color: #999;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border-radius: 100%;
+        outline: none;
+        box-shadow: unset !important;
+      }
+
+      + li {
+        margin-left: 5px;
+      }
+
+      &.page-item {
+        a:hover, &.active a {
+          color: #d30300;
+          background: transparent;
+        }
+      }
+    }
+
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

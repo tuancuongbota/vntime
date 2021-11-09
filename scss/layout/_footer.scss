@@ -1,0 +1,170 @@
+.bota_footer{
+	background: #A30000;
+	color: #fff;
+	position: relative;
+	margin-top: 60px;
+	
+	&_top{
+		padding: 55px 0 45px;
+		overflow: hidden;
+	}
+	.bota_footer_logo {
+		position: relative;
+		margin-bottom: 48px;
+	}
+
+	.bota_footer_title {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 37px;
+		color: #fff;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		position: relative;
+		&:after {
+			content: "";
+			background: #fff;
+			height: 2px;
+			width: 48px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+	}
+
+	.bota_footer_content {
+		position: relative;
+		max-width: 347px;
+
+		h3 {
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 37px;
+			color: #fff;
+			margin-bottom: 20px;
+		}
+
+		ul li {
+			position: relative;
+			padding-left: 30px;
+			margin-bottom: 20px;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+			span{
+				font-weight: 500;
+			}
+
+			svg {
+				position: absolute;
+				left: 0;
+				top: 5px;
+			}
+
+			a {
+				color: #fff;
+			}
+		}
+	}
+	.bota_footer_links {
+		position: relative;
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			margin-left: -10px;
+			margin-right: -10px;
+
+			li {
+				-ms-flex: 0 0 50%;
+				flex: 0 0 50%;
+				max-width: 50%;
+				padding-right: 10px;
+				padding-left: 10px;
+
+				a {
+					font-style: normal;
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 37px;
+					color: #fff;
+					position: relative;
+					padding-left: 20px;
+					&:before{
+						content:"";
+						width: 10px;
+						height: 10px;
+						background-repeat: no-repeat;
+						background-position: center center;
+						background-size: 100%;
+						top: 50%;
+						transform: translateY(-50%);
+						position: absolute;
+						left: 0;
+						background-image: url(../imgs/icon-right-footer.svg);
+					}
+					&:hover{
+						opacity: .8;
+					}
+				}
+			}
+		}
+	}
+	.bota_footer_socail {
+		position: relative;
+
+		ul {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+
+			li {
+				+ li {
+					margin-left: 20px;
+				}
+
+				
+			}
+		}
+	}
+	.copyright {
+		background: rgba(130, 0 , 0, 0.2);
+		width: 100%;
+		color: #fff;
+		padding: 12px 0;
+		line-height: 20px;
+
+		a {
+			color: #fff;
+		}
+	}
+	.bota_scrolltop {
+		position: fixed;
+		bottom: 30px;
+		right: 12px;
+		text-align: center;
+		cursor: pointer;
+		z-index: 5;
+		opacity: 0;
+		transform: translateX(100%);
+		transition: all ease .5s;
+
+		a {
+			color: #fff;
+			display: block;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: 100%;
+			background-image: url(../imgs/uptop.svg);
+			height: 50px;
+			width: 50px;
+		}
+		&.fixed {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	}
+}

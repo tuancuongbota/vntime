@@ -1,0 +1,1035 @@
+/*== Edit By DTM Reponsive ===*/
+$desktop:"max-width:1199px";
+$landscape-tablets:"(max-width:1024px)";
+$portrait-tablets:"(max-width:991px)";
+$landscape-mobile-big:"(max-width:767px)";
+$landscape-mobile:"(max-width:480px)";
+$portrait-mobile:"(max-width: 320px)";
+
+@media only screen and #{$landscape-tablets} {
+
+  .bota_ads_mobile {
+    margin-top: 30px;
+    img{
+      margin: auto;
+      display: block;
+    }
+
+  }
+  .bota_news_category_home .bota_news_category_small_it .bota_news_category_small_cont .bota_news_category_small_col {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+
+    &:last-child {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin: 0;
+    }
+  }
+  .bota_news_main {
+    margin-top: 25px;
+    .bota_news_body .slick-arrow {
+      bottom: 110px;
+    }
+  }
+  .bota_footer {
+    margin-top: 50px;
+  }
+
+  .bota_news_category_home {
+    margin-top: 50px;
+  }
+
+  .bota_news_hot_main {
+    margin-top: 50px;
+  }
+
+  .bota_advs {
+    margin-top: 50px;
+  }
+
+  .container, .container-sm, .container-md{
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .bota_header_top {
+    padding: 0;
+    .bota_header_logo {
+      padding: 14px 0;
+    }
+  }
+  .bota_menu_mobile {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    cursor: pointer;
+    z-index: 999;
+  }
+
+  .bota_header_logo {
+
+  }
+
+  .bota_header_right_mobile {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    .bota_btn_mobile_search {
+      position: relative;
+      cursor: pointer;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+    }
+
+    .bota_btn_mobile_menu {
+      position: relative;
+      cursor: pointer;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      text-align: right;
+    }
+  }
+  .bota_header_nav_mobile {
+    background: #D40000;
+
+    ul li a {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #fff;
+      padding: 21px 20px;
+    }
+
+    .nav {
+      white-space: nowrap;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+      display: flex;
+      flex-wrap: nowrap;
+      position: relative;
+      z-index: 1;
+    }
+
+    ul li {
+      &:first-child a {
+        padding-left: 0;
+      }
+
+      &:last-child a {
+        padding-right: 0;
+      }
+    }
+  }
+  .bota_header_top .bota_header_search {
+    float: none;
+    min-width: 257px;
+
+    input {
+      height: 31px;
+      border-radius: 5px;
+      padding: 4px 12px;
+      padding-left: 35px;
+    }
+
+    .bota_header_search_btn {
+      padding: 7.5px 12px;
+    }
+  }
+
+  .bota_menux_mobile {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+    transition: all .2s ease-in-out;
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    max-width: 414px;
+    right: 0;
+    left: auto;
+  }
+
+  .mobile-open {
+    .bota_menux_mobile {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+    }
+    .bota_body_opactiy{
+      opacity: 1;
+      visibility: visible;
+      display: block;
+    }
+  }
+
+  .bota_menux_mobile .bota_menu_mobile_header {
+    padding: 18px 15px 18px;
+    line-height: 20px;
+    cursor: pointer;
+
+    .bota_menu_mobile_close {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      color: #D40000;
+
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+  .bota_menux_mobile_list {
+    li {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+      padding: 0 15px;
+
+      a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 19px;
+        color: #454545;
+        border-bottom: 1px solid #D9D9D9;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 15px 0;
+      }
+    }
+
+    margin-top: 10px;
+  }
+  .bota_header_rightx {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .bota_btn_mobile_menu {
+      margin-left: 20px;
+    }
+  }
+
+}
+
+@media only screen and #{$portrait-tablets} {
+  .bota_search_page .block_ads_right_it + .block_ads_right_it {
+    margin: 0;
+  }
+  .block_ads_left {
+    margin-top: 50px;
+  }
+  .block_ads_left .block_ads_left_it + .block_ads_left_it {
+    margin: 0;
+  }
+
+  .bota_video_page_list_it {
+    .bota_video_page_list_img {
+      height: 239.19px;
+    }
+
+    .bota_video_page_list_contx .bota_video_page_list_toolbar .bota_video_page_list_left {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+  .bota_news_details_page .bota_news_details_des {
+    max-width: 100%;
+  }
+  .bota_news_page_list {
+    padding-bottom: 69px;
+
+    .slick-arrow {
+      bottom: -70px;
+      top: auto;
+    }
+
+    .slick-prev {
+      right: 50px;
+      left: auto;
+    }
+
+    .slick-next {
+      right: 10px;
+    }
+  }
+  .bota_news_page .bota_news_blog_grid .bota_news_blog_it {
+    .bota_news_blog_img {
+      height: 221px;
+    }
+
+    .bota_news_blog_cont {
+      padding: 14px 13px;
+
+      h3 {
+        -webkit-line-clamp: 2;
+      }
+
+      .bota_news_blog_des {
+        -webkit-line-clamp: 4;
+        min-height: 80px;
+        margin-bottom: 22px;
+      }
+    }
+  }
+
+  .bota_news_blog_small .bota_news_blog_small_it {
+    .bota_news_blog_small_img {
+      height: 126px;
+    }
+
+    .bota_news_blog_small_cont h3 {
+      -webkit-line-clamp: 2;
+    }
+  }
+
+  .bota_news_blog_list_it {
+    .bota_news_blog_list_img {
+      height: 157px;
+      width: 228px;
+    }
+
+    .bota_news_blog_list_cont {
+      margin-left: 15px;
+      width: calc(100% - 243px);
+
+      h3 {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 10px;
+      }
+
+      .bota_news_blog_list_des {
+        font-size: 14px;
+        line-height: 19px;
+      }
+
+      .bota_news_blog_list_toolbar {}
+    }
+
+    + .bota_news_blog_list_it {
+      margin-top: 20px;
+    }
+  }
+  .bota_video_category_home {
+    .bota_video_category_it .bota_video_category_it_cont h3 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .bota_video_small .bota_video_category_it .bota_video_category_it_cont h3 {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .bota_video_category_it .bota_video_category_it_cont .bota_video_cate_copyright, .bota_video_cate_toolbar {
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    .bota_video_category_it {
+      .bota_video_cate_link {
+        margin-bottom: 10px;
+
+        a {
+          padding: 4px 16px;
+          line-height: 20px;
+        }
+      }
+
+      .bota_video_category_it_cont {
+        padding: 10px 15px;
+      }
+    }
+    .bota_video_category_it .bota_video_category_img {
+      height: 336px;
+    }
+
+    .bota_video_small .bota_video_category_it {
+      .bota_video_category_img {
+        height: 168px;
+      }
+
+      .bota_video_cate_link {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .bota_news_category_home {
+    .bota_news_category_small_it {
+      .bota_news_category_small_img {
+        height: 208.26px;
+      }
+
+      .bota_news_category_small_cont .bota_news_category_small_col {
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+
+        &:last-child {
+          -ms-flex: 0 0 100%;
+          -webkit-box-flex: 0;
+          flex: 0 0 100%;
+          max-width: 100%;
+          margin: 0;
+        }
+
+        h3 {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+    }
+
+    .bota_news_category_it .bota_news_category_cont {
+      h3 {
+        font-size: 14px;
+        line-height: 21px;
+      }
+
+      .bota_news_category_toolbar {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .bota_news_main {
+    .bota_news_body .bota_news_it .bota_news_it_cont h3 {
+      line-height: 24px;
+      font-size: 16px;
+      height: 48px;
+    }
+
+    .bota_news_small .bota_news_it .bota_news_it_cont {
+      h3 {
+        font-size: 14px;
+        line-height: 21px;
+        height: 40px;
+      }
+
+      .bota_news_it_toolbar {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+
+    .bota_news_body .bota_news_it .bota_news_it_img {
+      height: 336px;
+    }
+
+    .bota_news_small .bota_news_it .bota_news_it_img {
+      height: 158px;
+    }
+
+    .bota_news_body .bota_news_it .bota_news_it_cont {
+      padding: 10px 15px;
+    }
+
+    .bota_news_small .bota_news_it .bota_news_it_cont {
+      padding: 15px 10px;
+    }
+  }
+  .bota_contact_page {
+  .bota_contact_page_bg {
+    display: none;
+  }
+  .bota_contact_form .bota_contact_btn {
+    margin: auto;
+    display: block;
+  }
+}
+}
+
+@media only screen and #{$landscape-mobile-big} {
+ .bota_ads_mobile {
+
+  .bota_ads_mobile_it + .bota_ads_mobile_it {
+    margin-top: 15px;
+  }
+}
+
+.bota_news_page .bota_news_page_cate .nav-tabs {
+  white-space: nowrap;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  position: relative;
+  z-index: 1;
+}
+.bota_news_page .bota_news_blog_grid .bota_news_blog_it {
+  .bota_news_blog_img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: 208px;
+    margin-bottom: 10px;
+  }
+
+  .bota_news_blog_cont {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+    background: #fff;
+
+    h3 {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+}
+
+.bota_news_blog_small {
+  .bota_news_blog_small_it {
+    .bota_news_blog_small_img {}
+
+    margin-bottom: 20px;
+  }
+
+  margin: 0;
+}
+
+.bota_news_blog_list_it {
+  .bota_news_blog_list_img {
+    width: 137px;
+    height: 100px;
+  }
+
+  .bota_news_blog_list_cont {
+    width: calc(100% - 152px);
+    margin-left: 15px;
+
+    h3 {
+      font-size: 14px;
+      line-height: 21px;
+      -webkit-line-clamp: 3;
+    }
+  }
+}
+
+.bota_news_page .bota_news_blog_grid .bota_news_blog_it .bota_news_blog_cont {
+  .bota_news_blog_des {
+    min-height: auto;
+    margin-bottom: 10px;
+    -webkit-line-clamp: 4;
+    line-height: 22px;
+  }
+
+  .bota_news_blog_toolbar {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.bota_news_blog_small .bota_news_blog_small_it .bota_news_blog_small_cont {
+  h3 {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .bota_news_blog_small_toolbar {
+    line-height: 20px;
+    font-size: 12px;
+  }
+}
+
+.bota_news_blog_list_it {
+ + .bota_news_blog_list_it{
+  margin-top: 20px;
+}
+.bota_news_blog_list_cont {
+  .bota_news_blog_list_des {
+    display: none;
+  }
+
+  .bota_news_blog_list_toolbar {
+    font-size: 12px;
+    line-height: 20px;
+    justify-content: space-between;
+
+    .bota_news_blog_list_times {
+      margin: 0;
+    }
+  }
+}
+}
+.bota_news_details_page {
+  margin: 0;
+  .bota_news_details_img {
+    margin: 30px auto 19px;
+  }
+
+  .bota_news_details_title h1 {
+    font-size: 25px;
+  }
+
+  .bota_news_details_toolbar {
+    margin-bottom: 15px;
+  }
+
+  .bota_news_relate_title h2 {
+    font-size: 20px;
+  }
+
+  .bota_news_relate {
+    margin-top: 24px;
+  }
+
+  .bota_keyboard {
+    padding-bottom: 0;
+  }
+
+  .bota_news_relate_it .bota_news_relate_contx {
+    .bota_news_relate_toolbar {
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    h3 {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+  .bota_news_relate_it .bota_news_relate_img {
+    height: 99.71px;
+    margin-bottom: 5px;
+  }
+}
+.bota_breadcrumb {
+  border-top: 1px solid #E9E9E9;
+  ul li {
+    &:first-child {
+      a, + li:before {
+        display: none;
+      }
+    }
+
+    &:nth-child(2) a {
+      padding-left: 0;
+    }
+  }
+}
+.bota_pagination ul {
+  justify-content: center;
+}
+.bota_header_search_mobile {
+  border-top: 1px solid #E9E9E9;
+  padding: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100%);
+}
+.search-open {
+  .bota_header_search_mobile {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0);
+    height: auto;
+    padding: 15px;
+  }
+
+  .bota_header {
+    z-index: 99;
+
+    .bota_header_nav_mobile {
+      display: none;
+    }
+  }
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.bota_news_main .bota_news_body {
+  .bota_news_it .bota_news_it_img {
+    height: 247px;
+  }
+
+  margin-bottom: 20px;
+}
+.bota_news_main {
+  .bota_news_body {
+    .bota_news_it .bota_news_it_cont {
+      h3 {
+        font-size: 16px;
+        line-height: 20px;
+        height: 40px;
+      }
+
+      padding: 10px 15px;
+
+      .bota_news_it_toolbar {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+
+    .slick-arrow {
+      bottom: 90px;
+    }
+  }
+
+  .bota_news_small .bota_news_it .bota_news_it_cont {
+    h3 {
+      font-size: 16px;
+      line-height: 20px;
+      height: 40px;
+    }
+
+    .bota_news_it_toolbar {
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    padding: 10px 15px;
+  }
+}
+.bota_news_category_home {
+  margin-top: 30px;
+
+  .bota_news_category_title h2 {
+    font-size: 20px;
+  }
+
+  .bota_news_category_it {
+    .bota_news_category_img {
+      width: 137px;
+      height: 100px;
+    }
+
+    .bota_news_category_cont {
+      width: calc(100% - 152px);
+
+      h3 {
+        font-size: 14px;
+        line-height: 21px;
+      }
+
+      .bota_news_category_toolbar {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+.bota_news_category_home {
+  .bota_news_category_small_it {
+    .bota_news_category_small_img {
+      height: 208.26px;
+      margin-bottom: 10px;
+    }
+
+    .bota_news_category_small_cont .bota_news_category_small_col {
+      -ms-flex: 0 0 100%;
+      -webkit-box-flex: 0;
+      flex: 0 0 100%;
+      max-width: 100%;
+
+      &:last-child {
+        -ms-flex: 0 0 100%;
+        -webkit-box-flex: 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 18px;
+        line-height: 26px;
+      }
+
+      .bota_news_category_small_toolbar {
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .bota_news_category_title {}
+
+  .bota_news_category_it:last-child {
+    margin-bottom: 20px;
+  }
+
+  .bota_news_category_full_it {
+    &:first-child {
+      margin-top: 20px;
+    }
+
+    .bota_news_category_full_img {
+      height: 148.55px;
+    }
+
+    .bota_news_category_full_cont {
+      h3 {
+        font-size: 16px;
+        line-height: 21px;
+      }
+
+      .bota_news_category_toolbar {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  .bota_news_category_small_it .bota_news_category_small_cont .bota_news_category_small_col .bota_news_category_small_des {
+    line-height: 22px;
+  }
+}
+
+.bota_news_hot_main .bota_news_hot_it .bota_news_hot_cont .bota_news_hot_toolbar {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.bota_advs, .bota_news_hot_main {
+  margin-top: 30px;
+}
+
+.bota_video_category_home {
+  margin-top: 30px;
+
+  .bota_video_category_it {
+    &:last-child {
+      margin: 0;
+    }
+    .bota_video_category_img {
+      height: 220px;
+    }
+
+    margin-bottom: 20px;
+
+    .bota_video_category_it_cont .bota_video_cate_copyright {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+
+  .bota_video_cate_toolbar {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+.bota_video_category_play {
+  width: 44px;
+  height: 44px;
+  top: 40%;
+}
+
+.bota_video_category_home {
+ .bota_video_category_it {
+  .bota_video_category_it_cont h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  .bota_video_category_it_cont {
+    padding: 10px 15px;
+  }
+
+  .bota_video_cate_link {
+    a {
+      padding: 4px 16px;
+      line-height: 20px;
+    }
+
+    margin-bottom: 10px;
+  }
+}
+.bota_video_small .bota_video_category_play {
+  top: 40%;
+}
+.bota_video_small .bota_video_category_it .bota_video_cate_link {
+  margin-bottom: 10px;
+}
+
+
+}
+.bota_footer {
+  .bota_footer_content h3 {
+    margin-bottom: 15px;
+  }
+  .bota_footer_socail.bota_footer_socail_mobile ul li {
+    svg {
+      width: 30px;
+    }
+
+    + li {
+      margin-left: 12px;
+    }
+  }
+}
+.bota_header_top .bota_header_search{
+  min-width: 100%;
+}
+.bota_video_page {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+.bota_video_page_category .container {
+  border: unset;
+  padding-top: 0;
+  margin-top: 15px;
+}
+.bota_title_page_all {
+  display: none;
+}
+
+.bota_block_video_category {
+  margin-bottom: 22px;
+
+  .bota_block_video_titlex h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .bota_block_video_cont ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+}
+.bota_video_page_listx_it {
+  .bota_video_page_listx_img {
+    height: 99.71px;
+  }
+
+  .bota_video_page_listx_cont {
+    h3 {
+      font-size: 14px;
+      line-height: 21px;
+    }
+
+    .bota_video_page_listx_toolbar {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+
+  margin-bottom: 30px;
+}
+
+.bota_video_page_list{
+  margin-bottom: 20px;
+}
+.bota_video_page_right .bota_video_page_count {
+  margin-left: 5px;
+}
+
+.bota_video_page_right_list .bota_video_page_right_it {
+  padding: 20px 5px;
+}
+.bota_video_page_list_it {
+  .bota_video_page_list_img {
+    height: 239.19px;
+    margin-bottom: 15px;
+  }
+
+  .bota_video_page_list_contx {
+    h3 {
+      font-size: 18px;
+      line-height: 26px;
+      margin-bottom: 5px;
+    }
+
+    .bota_video_page_list_toolbar .bota_video_page_list_left {
+      font-size: 12px;
+      line-height: 20px;
+
+      .bota_video_page_list_times {
+        margin-left: 10px;
+      }
+    }
+    .bota_video_page_list_toolbar{
+      margin-bottom: 16px;
+    }
+    .bota_video_page_list_des {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  .bota_video_page_list_contx {
+    padding: 0;
+  }
+}
+.block_ads_left .block_ads_left_it + .block_ads_left_it {
+  margin: 15px;
+}
+.bota_search_page {
+  .bota_search_title_all {
+    h1 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    margin-bottom: 15px;
+  }
+
+  border-top: 1px solid #E9E9E9;
+  margin: 0;
+  padding-top: 15px;
+
+  .bota_search_toolbar label {
+    display: none;
+  }
+}
+.bota_search_page .block_ads_right_it + .block_ads_right_it {
+  margin-top: 15px;
+}
+
+
+.bota_contact_page {
+  .bota_contact_title_all h1 {
+    font-size: 20px;
+  }
+  .bota_contact_page_bg {
+    display: none;
+  }
+  .bota_contact_form .bota_contact_btn {
+    margin: auto;
+    display: block;
+  }
+}
+
+}
+
+
+@media only screen and #{$landscape-mobile} {}
+
+@media only screen and #{$portrait-mobile} {}
